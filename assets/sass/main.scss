@@ -8,9 +8,9 @@
 @import url('fontawesome-all.min.css');
 
 /*
-	Helios by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
 // Breakpoints.
@@ -176,7 +176,7 @@
 		@include vendor('transition', ('background-color 0.35s ease-in-out', 'color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
 
 		&:hover {
-			color: #7cd9d9;
+			color: #ef8376;
 			border-bottom-color: transparent;
 		}
 	}
@@ -495,7 +495,7 @@
 				color: inherit;
 
 				&:hover {
-					color: #7cd9d9;
+					color: #ef8376;
 				}
 			}
 		}
@@ -528,7 +528,7 @@
 
 			&:focus {
 				background: #fff;
-				border-color: #6cc9c9;
+				border-color: #df7366;
 			}
 		}
 
@@ -615,7 +615,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #6cc9c9;
+		background: #df7366;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -629,7 +629,7 @@
 
 		&:hover {
 			color: #fff;
-			background: #7cd9d9;
+			background: #ef8376;
 		}
 
 		&.alt {
@@ -912,7 +912,7 @@
 			}
 
 			&:hover {
-				color: #7cd9d9;
+				color: #ef8376;
 			}
 
 			a, span {
