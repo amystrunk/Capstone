@@ -278,6 +278,8 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		/* added justify-content after commenting out the larger portion of the footer, may need to remove if reverted back. */
+		justify-content: center;
 	}
 
 		.row > * {
@@ -521,6 +523,8 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				/* added justify-content after commenting out the larger portion of the footer, may need to remove if reverted back. */
+				justify-content: center;
 			}
 
 				.row > * {
@@ -766,6 +770,8 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				/* added justify-content after commenting out the larger portion of the footer, may need to remove if reverted back. */
+				justify-content: center;
 			}
 
 				.row > * {
@@ -1011,6 +1017,8 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				/* added justify-content after commenting out the larger portion of the footer, may need to remove if reverted back. */
+				justify-content: center;
 			}
 
 				.row > * {
