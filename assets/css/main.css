@@ -229,7 +229,10 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
+		
 	}
+
+
 
 		@media screen and (max-width: 1680px) {
 
@@ -1800,10 +1803,16 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		/* adjustments for the seal image */
+
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 4em 0;
+			margin-left: auto;
+    		margin-right: auto;
+    		max-width: 300px;
+			margin-top: 20px;
+			margin-bottom: 30px;
 		}
 
 		.image.left {
@@ -2111,6 +2120,22 @@ input, select, textarea {
 			margin: 0;
 		}
 
+/* Reviews */
+    .ratingRainbows {
+		font-size: 40px;
+    	background: -webkit-linear-gradient(red,orange,yellow,green,blue,indigo);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+	}
+
+	.reviews-quote {
+		color: blue;
+	}
+
+	.image-inclusion-quote {
+		display: block;
+		margin: auto;
+	}
 /* Icons */
 
 	.icon {
