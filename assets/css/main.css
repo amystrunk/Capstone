@@ -2125,8 +2125,8 @@ input, select, textarea {
 
 /* Reviews */
     .ratingRainbows {
-		font-size: 40px;
-    	background: -webkit-linear-gradient(red,orange,yellow,green,blue,indigo);
+		/* font-size: 40px; */
+    	background: -webkit-linear-gradient(red,orange,yellow,green,blue,indigo, violet);
   		-webkit-background-clip: text;
   		-webkit-text-fill-color: transparent;
 	}
