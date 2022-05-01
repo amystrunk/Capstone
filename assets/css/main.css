@@ -1830,6 +1830,21 @@ input, select, textarea {
 				width: auto;
 			}
 
+
+/* Review pages a.k.a Rainbow Ranking Pages */
+
+#fields1 {
+	list-style: none;
+}
+
+.head {
+	color: red;
+}
+
+#college-name {
+	color: black;
+	font-size: 24px;
+}
 /* List */
 
 	ul {
