@@ -13,9 +13,30 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="homepage is-preload">
-		<div id="page-wrapper">
 
-			<!-- Header -->
+	<div id="page-loader" class="loader">
+		<div class="loader-inner">
+			<div class="loader-line-wrap">
+				<div class="loader-line"></div>
+			</div>
+			<div class="loader-line-wrap">
+				<div class="loader-line"></div>
+			</div>
+			<div class="loader-line-wrap">
+				<div class="loader-line"></div>
+			</div>
+			<div class="loader-line-wrap">
+				<div class="loader-line"></div>
+			</div>
+			<div class="loader-line-wrap">
+				<div class="loader-line"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="page-wrapper" style="display:none;">
+
+		<!-- Header -->
 				<div id="header">
 
 					<!-- Inner -->
@@ -26,7 +47,7 @@
 								<p>Inclusiveness rated by students for students</p>
 								<!-- <hr /> -->
 								<!-- removed hr for cleaner look -->
-								
+
 							</header>
 							<footer>
 								<a href="#banner" class="button circled scrolly">Welcome</a>
@@ -40,7 +61,7 @@
                             <li>
                                 <a href="#">Colleges</a>
                                 <ul>
-                                    
+
                                     <li>
                                         <a href="kentucky.html">Kentucky</a>
 										<ul>
@@ -90,7 +111,7 @@
 													<li><a href="fiveStar">5 Rainbows</a></li>
 												</ul>
 									</ul>
-									
+
 										</li>
 									</ul>
 									</li>
@@ -129,7 +150,7 @@
 						</article> -->
 
 						<article>
-							<a href="bellarmineUniversity.html" class="image featured"><img src="images/Seal - Bellarmine University.jpeg" alt="Bellarmine University school seal" /></a>
+							<a href="bellarmineUniversity.html" class="image featured"><img src="images/Seal - Bellarmine University.png" alt="Bellarmine University school seal" /></a>
 							<header>
 								<h3><a href="bellarmineUniversity.html">Bellarmine University</a></h3>
 							</header>
@@ -195,6 +216,7 @@
 						<header>
 							<h2><a href="completeListOfColleges.html">Complete List of Colleges</a></h2>
 							<p>View a list of all Kentucky, Ohio, and Tennessee colleges and their rainbow ratings.</p>
+						</header>
 					</article>
 				</div>
 
@@ -384,7 +406,9 @@
 
 		</div>
 
+		</div>
 		<!-- Scripts -->
+		</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -393,6 +417,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+	<script>
+		setTimeout(() => {
+			$('#page-loader').hide();
+			$('#page-wrapper').show();
+		}, 1500)
+	</script>
 
 	</body>
 </html>
