@@ -1833,6 +1833,14 @@ input, select, textarea {
 	color: black;
 	font-size: 24px;
 }
+.collegeSeal {
+	max-width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 80px;
+	
+}
 /* List */
 
 	ul {
