@@ -1,5 +1,39 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+    align-content: inherit;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '🌈';
+    
+}
+.rate > input:checked ~ label {
+    background-color: indigo; 
+}
+/*Table */
+td { 
+	
+	border: none;
+	border-bottom: 1px solid #eee; 
+	position: relative;
+	padding-left: 50%; 
+}
 
 
 
@@ -1994,15 +2028,17 @@ input, select, textarea {
 		form input[type="text"]:focus,
 		form input[type="email"]:focus,
 		form input[type="password"]:focus,
+                form input[type="checkbox"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: #fff;
-			border-color: #6cc9c9;
+			background: light grey;
+			
 		}
 
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"],
+
 	form select {
 		line-height: 1em;
 	}
