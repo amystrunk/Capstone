@@ -8,7 +8,7 @@
 }
 .rate:not(:checked) > input {
     position:absolute;
-    top:-9999px;
+    top:-20px;
 }
 .rate:not(:checked) > label {
     float:right;
@@ -21,7 +21,7 @@
 }
 .rate:not(:checked) > label:before {
     content: '🌈';
-    
+	   
 }
 .rate > input:checked ~ label {
     background-color: indigo; 
@@ -32,7 +32,7 @@ td {
 	border: none;
 	border-bottom: 1px solid #eee; 
 	position: relative;
-	padding-left: 50%; 
+	padding-left: 50%;  
 }
 
 
@@ -54,7 +54,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: middle;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
