@@ -1856,12 +1856,27 @@ input, select, textarea {
 
 /* Review pages a.k.a Rainbow Ranking Pages */
 
+.reviews-banner {
+	background: -webkit-linear-gradient(red,orange,yellow,green,blue,indigo, violet);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+}
+
+
+
 #fields1 {
 	list-style: none;
 }
 
 .head {
 	color: red;
+	text-decoration: underline;
+	font-size: 25px;
+	
+}
+
+.catagories-lists {
+	text-align: left;
 }
 
 #college-name {
@@ -1888,6 +1903,10 @@ h3 .dark-rainbow {
 	background: -webkit-linear-gradient(red,orange,yellow,green,blue,indigo, violet);
   		-webkit-background-clip: text;
   		-webkit-text-fill-color: transparent;
+}
+
+.catagories {
+	
 }
 
 /* List */
